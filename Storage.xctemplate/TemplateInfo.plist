@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Storage Manager</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>Storage Type</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Storage type:</string>
+			<key>Description</key>
+			<string>Database(Realm) or Userdefaults or Keychain</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Userdefaults</string>
+			<key>Values</key>
+			<array>
+				<string>Userdefaults</string>
+				<string>Database</string>
+				<string>Keychain</string>
+			</array>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>8</string>
+	<key>Summary</key>
+	<string>Storage Manager</string>
+</dict>
+</plist>
